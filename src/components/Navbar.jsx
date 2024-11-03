@@ -12,12 +12,19 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <a href="/">DarwinAcademy</a>
+        <a href="/">
+          <img
+            src="/src/assets/logo2.png"
+            alt="Darwin Academy Logo"
+            className="logo"
+          />
+          DarwinAcademy
+        </a>
       </div>
-      <div className={`navbar-links ${ menuOpen ? "active" : ""}`}>
+      <div className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <ul>
           <li>
-            <a href="/">Inicio </a>
+            <a href="/">Inicio</a>
           </li>
           <li>
             <a href="/cursos">Cursos</a>
@@ -40,3 +47,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
