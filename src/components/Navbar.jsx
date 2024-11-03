@@ -1,5 +1,6 @@
 // src/components/Navbar.jsx
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -24,16 +25,13 @@ const Navbar = () => {
       <div className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <ul>
           <li>
-            <a href="/">Inicio</a>
+            <Link to="/">Inicio</Link>
           </li>
           <li>
-            <a href="/cursos">Cursos</a>
+            <Link to="/cursos">Cursos</Link>
           </li>
           <li>
-            <a href="/sobre-nosotros">Sobre Nosotros</a>
-          </li>
-          <li>
-            <a href="/contacto">Contacto</a>
+            <Link to="/contacto">Contacto</Link>
           </li>
         </ul>
       </div>

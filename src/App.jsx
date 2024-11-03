@@ -1,20 +1,30 @@
 // src/App.jsx
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <Router>
       <Navbar />
-      <Header />
-      <main>
-        <h1>Bienvenido a PsicoCursos</h1>
-        <p>Contenido de ejemplo...</p>
-        <div style={{ height: "200vh" }}></div>
-      </main>
-    </div>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <Main />
+            </>
+          }
+        />
+        <Route path="/cursos" element={<Main />} />
+      </Routes>
+      <Footer></Footer>
+    </Router>
   );
-}
+};
 
 export default App;

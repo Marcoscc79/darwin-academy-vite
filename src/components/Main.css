@@ -1,0 +1,72 @@
+body {
+  background-color: #04592c;
+}
+/* src/components/Main.css */
+.main-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 2rem;
+  color: #FFD700;
+  margin-bottom: 20px;
+}
+
+/* Grid para organizar las tarjetas en 2 columnas */
+.cursos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* Estilos para las tarjetas de curso */
+.curso-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.curso-card h3 {
+  font-size: 1.5rem;
+  color: #004d40;
+  margin-bottom: 10px;
+}
+
+.curso-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.curso-card .btn-seleccionar {
+  background-color: #004d40;
+  color: #FFD700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.curso-card .btn-seleccionar:hover {
+  background-color: #00332c;
+}
+
+/* Efecto al pasar sobre la tarjeta */
+.curso-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsivo: 1 columna en pantallas pequeñas */
+@media (max-width: 768px) {
+  .cursos-grid {
+    grid-template-columns: 1fr;
+  }
+}
