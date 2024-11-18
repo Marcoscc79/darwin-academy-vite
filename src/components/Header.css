@@ -17,7 +17,7 @@
 
 /* Capa de superposición para mejorar la legibilidad */
 .hero::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -43,16 +43,23 @@
   font-weight: bold;
   margin-bottom: 10px;
   letter-spacing: 1.5px;
+  -webkit-text-stroke: 2px #000; /* Grosor */
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.8),
+    -2px -2px 3px rgba(255, 255, 255, 0.8); /* Bisel */
+  text-align: center;
 }
 
 .hero-text p {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: bold;
   margin-bottom: 70px;
+  -webkit-text-stroke: .5px #000; /* Grosor */
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1),
+    -2px -2px 3px rgba(255, 255, 255, 0.8); /* Bisel */
 }
 
 .btn-cta {
-  background-color: #FFD700;
+  background-color: #ffd700;
   color: #004d40;
   padding: 10px 20px;
   border: none;

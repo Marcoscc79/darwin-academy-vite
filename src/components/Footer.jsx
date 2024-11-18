@@ -28,21 +28,21 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Facebook
+            <img src="./src/assets/facebook.png" alt="Logo de Facebook" />
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Twitter
+            <img src="./src/assets/twitterx.png" alt="Logo de Twiter" />
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Instagram
+            <img src="./src/assets/instagram.png" alt="Logo de Instagram" />
           </a>
         </div>
       </div>

@@ -6,19 +6,27 @@ const Main = () => {
   const cursos = [
     {
       id: 1,
-      titulo: "Psicología Cognitiva",
-      descripcion: "Explora los procesos mentales.",
+      titulo: "Psicología",
+      descripcion:
+        "En este curso vas a encontrar conocimientos teóricos y principios fundamentales en las ciencias de la conducta y cognición para poder desempeñar tu práctica de manera optima ,  poder tomar decisiones fundamentadas y desplegar acciones en tu clínica diaria basándote en la solidez de planes de acciones mentados.",
     },
-    { id: 2, titulo: "Neurociencia", descripcion: "Aprende sobre el cerebro." },
+    {
+      id: 2,
+      titulo: "Entrecruzamiento entre Educación y Salud.",
+      descripcion:
+        "En este curso vas a poder tener acceso a la intersecciones ineludibles e imprescindibles que se presentan entre el ámbito de la eduación  y la psicología. Con un enfoque eminentemente práctico pero siempre basado en un corpus teórico actualizado vas a poder desempeñar tu trabajo con estudiantes y mejorar tu proceso de enseñanza-aprendizaje.",
+    },
     {
       id: 3,
-      titulo: "Psicología del Desarrollo",
-      descripcion: "Cómo los individuos crecen.",
+      titulo: "Salud y Medicina Conductual.",
+      descripcion:
+        "En este curso vas a poder acceder a conocimiento teórico especifico y preciso para poder llevar a cabo tu práctica clínica en relación a las diferentes patologías existentes teniendo en cuenta a la vez los criterios actuales y pretéritos de salud y enfermedad. Los cursos están enfocados a que puedas resolver los escollos prácticos de tu trabajo cotidiano.",
     },
     {
       id: 4,
-      titulo: "Psicología Social",
-      descripcion: "Interacciones y sus influencias.",
+      titulo: "Neurodesarrollo.",
+      descripcion:
+        "En este curso vas a poder tener acceso a las últimas teorías de las ciencias de la cognición y el comportamiento que te van a permitir optimizar tu práctica en el área de la neurocognición y poder desempeñar una praxis clínica y educativa mucho más precisa, eficaz y eficiente con tus pacientes y sus familias.",
     },
     {
       id: 5,

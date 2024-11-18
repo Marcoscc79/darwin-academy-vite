@@ -103,12 +103,14 @@
     margin: 5px;
     border: solid 1px black;
     border-radius: 10px;
+    display: none;
   }
   .navbar-links:hover {
     color: blanchedalmond;
   }
 
   .navbar-links.active {
+    display: block;
     transform: translateX(0);
   }
 

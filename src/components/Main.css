@@ -1,5 +1,5 @@
 body {
-  background-color: #04592c;
+  background-color: #2b965d;
 }
 /* src/components/Main.css */
 .main-container {
@@ -56,7 +56,7 @@ body {
 }
 
 .curso-card .btn-seleccionar:hover {
-  background-color: #00332c;
+  background-color: #2b965d;
 }
 
 /* Efecto al pasar sobre la tarjeta */
