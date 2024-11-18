@@ -1,6 +1,9 @@
 // src/components/Footer.jsx
 import React from "react";
 import "./Footer.css";
+import logoFacebook from "../assets/facebook.png";
+import logoTwiterx from "../assets/twitterx.png";
+import logoInstagram from "../assets/instagram.png";
 
 const Footer = () => {
   return (
@@ -28,21 +31,21 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./src/assets/facebook.png" alt="Logo de Facebook" />
+            <img src={logoFacebook} alt="Logo de Facebook" />
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./src/assets/twitterx.png" alt="Logo de Twiter" />
+            <img src={logoTwiterx} alt="Logo de Twiter" />
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./src/assets/instagram.png" alt="Logo de Instagram" />
+            <img src={logoInstagram} alt="Logo de Instagram" />
           </a>
         </div>
       </div>

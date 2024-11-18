@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import logoNavbar from "../assets/logo2.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
       <div className="navbar-logo">
         <a href="/">
           <img
-            src="/src/assets/logo2.png"
+            src={logoNavbar}
             alt="Darwin Academy Logo"
             className="logo"
           />
