@@ -1,6 +1,9 @@
 body {
   background-color: #2b965d;
 }
+a {
+  text-decoration: none;
+}
 /* src/components/Main.css */
 .main-container {
   padding: 20px;
@@ -30,6 +33,12 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
   text-align: center;
+}
+
+.curso-imagen {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .curso-card h3 {

@@ -50,7 +50,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-copyright">
-        <p>&copy; 2024 Darwin Academy. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Darwin Academy. Todos los derechos reservados.</p>
+        <p>
+          🧑‍💻<b>MCC desarrollos</b>🧑‍💻
+        </p>
       </div>
     </footer>
   );
