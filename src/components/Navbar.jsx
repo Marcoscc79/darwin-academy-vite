@@ -15,11 +15,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <a href="/">
-          <img
-            src={logoNavbar}
-            alt="Darwin Academy Logo"
-            className="logo"
-          />
+          <img src={logoNavbar} alt="Darwin Academy Logo" className="logo" />
           DarwinAcademy
         </a>
       </div>
@@ -30,6 +26,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/cursos">Cursos</Link>
+          </li>
+          <li>
+            <Link to="/nosotros">Nosotros</Link>
           </li>
           <li>
             <Link to="/contacto">Contacto</Link>

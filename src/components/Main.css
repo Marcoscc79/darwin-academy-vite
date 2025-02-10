@@ -22,7 +22,7 @@ a {
 .cursos-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 10px;
 }
 
 /* Estilos para las tarjetas de curso */
@@ -56,7 +56,7 @@ a {
 .curso-card .btn-seleccionar {
   background-color: #004d40;
   color: #FFD700;
-  padding: 10px 20px;
+  padding: 5px 15px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -71,6 +71,41 @@ a {
 /* Efecto al pasar sobre la tarjeta */
 .curso-card:hover {
   transform: translateY(-5px);
+}
+
+.btn-seleccionar {
+  display: inline-flex;           /* Permite alinear el contenido del botón */
+  align-items: center;            /* Alinea verticalmente el logo y el texto */
+  justify-content: center;        /* Centra el contenido horizontalmente */
+  gap: 0.4em;                     /* Espacio entre el logo y el texto */
+  padding: 5px 10px;
+  background-color: #25D366;      /* Color de fondo, típico de WhatsApp */
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;                /* Tamaño de fuente del botón */
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;          /* Elimina subrayados en caso de que uses un enlace */
+}
+
+.btn-seleccionar img {
+  height: 1.3em;                    /* Igual al tamaño de la fuente para que el logo se ajuste */
+  width: auto;                    /* Mantiene la proporción original de la imagen */
+}
+
+.footer-header {
+  width: 100%;
+  background-color: #dcbf6d;
+  padding: 15px 0;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+
+.footer-title {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
 }
 
 /* Responsivo: 1 columna en pantallas pequeñas */

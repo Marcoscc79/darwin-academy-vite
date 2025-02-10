@@ -11,7 +11,7 @@ const Nosotros = () => {
     <div className="nosotros-container">
       {/* Encabezado con el lema */}
       <header className="nosotros-header">
-        <h2 className="nosotros-title">"Nuestro compromiso, tu éxito"</h2>
+        <h2 className="nosotros-title">"Darwin... ¡Vas a crecer!"</h2>
       </header>
 
       {/* Sección de integrantes: dos columnas */}
@@ -24,7 +24,12 @@ const Nosotros = () => {
           />
           <figcaption className="integrante-info">
             <h3>Rafael Matías Valdéz</h3>
-            <p>Experto en psicología clínica y desarrollo personal.</p>
+            <p>
+              Psicólogo por la Universidad Nacional de Tucumán (UNT).
+              Especialista en Terapia Cognitivo Conductual. Doctorando en
+              Psicología, mención Neurociencias, Psicología Cognitiva y Teoría
+              de Sistemas por Universidad de Flores (UFLO).
+            </p>
           </figcaption>
           <div className="redes-sociales">
             <a
@@ -51,7 +56,11 @@ const Nosotros = () => {
           />
           <figcaption className="integrante-info">
             <h3>Lourdes Mariel Aredes</h3>
-            <p>Especialista en terapias cognitivo-conductuales y coaching.</p>
+            <p>
+              Profesora en Historia por la Universidad Nacional de Catamarca.
+              Docente en nivel medio. Integrante de equipo de investigación de
+              Facultad de Humanidades, Universidad Nacional de Catamarca (UNCa)
+            </p>
           </figcaption>
           <div className="redes-sociales">
             <a

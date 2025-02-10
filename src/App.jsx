@@ -22,8 +22,8 @@ const App = () => {
           }
         />
         <Route path="/cursos" element={<Main />} />
+        <Route path="/nosotros" element={<Nosotros />} />
       </Routes>
-      <Nosotros></Nosotros>
       <Footer></Footer>
     </Router>
   );
