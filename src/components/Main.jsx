@@ -16,7 +16,7 @@ const Main = () => {
       id: 1,
       titulo: "Psicología",
       descripcion:
-        "En este curso encontrarás conocimientos teóricos y principios fundamentales de las ciencias de la conducta y la cognición. Esto te permitirá desempeñar tu práctica de manera óptima, tomar decisiones fundamentadas y desplegar acciones en tu clínica diaria, basadas en la solidez de planes de acción mentados.",
+        "En esta sección encontrarás conocimientos teóricos y principios fundamentales de las ciencias de la conducta y la cognición. Esto te permitirá desempeñar tu práctica de manera óptima, tomar decisiones fundamentadas y desplegar acciones en tu clínica diaria, basadas en la solidez de planes de acción mentados.",
       // duración: "4 clases en 2 meses.",
       numeroWhatsapp: "5493816785691",
     },
@@ -25,7 +25,7 @@ const Main = () => {
       id: 2,
       titulo: "Intersección entre Educación y Salud.",
       descripcion:
-        "En este curso podrás acceder a las intersecciones ineludibles e imprescindibles que se presentan entre el ámbito de la educación y la psicología. Con un enfoque eminentemente práctico, pero siempre basado en un corpus teórico actualizado, podrás desempeñar tu trabajo cotidiano con estudiantes y mejorar tu proceso de enseñanza-aprendizaje.",
+        "En esta sección podrás acceder a las intersecciones ineludibles e imprescindibles que se presentan entre el ámbito de la educación y la psicología. Con un enfoque eminentemente práctico, pero siempre basado en un corpus teórico actualizado, podrás desempeñar tu trabajo cotidiano con estudiantes y mejorar tu proceso de enseñanza-aprendizaje.",
       // duración: "6 clases en 2 meses.",
       numeroWhatsapp: "5493816785691",
     },
@@ -34,7 +34,7 @@ const Main = () => {
       id: 3,
       titulo: "Salud y Medicina Conductual.",
       descripcion:
-        "En este curso podrás acceder a conocimiento teórico específico y preciso para llevar a cabo tu práctica clínica en relación con las diferentes patologías existentes, teniendo en cuenta a la vez los criterios actuales y pretéritos de salud y enfermedad. Los cursos están enfocados en que puedas resolver los escollos prácticos de tu trabajo cotidiano.",
+        "En esta sección podrás acceder a conocimiento teórico específico y preciso para llevar a cabo tu práctica clínica en relación con las diferentes patologías existentes, teniendo en cuenta a la vez los criterios actuales y pretéritos de salud y enfermedad. Los cursos están enfocados en que puedas resolver los escollos prácticos de tu trabajo cotidiano.",
       // duración: "8 clases en 2 meses.",
       numeroWhatsapp: "5493816785691",
     },
@@ -43,7 +43,7 @@ const Main = () => {
       id: 4,
       titulo: "Neurodesarrollo.",
       descripcion:
-        "En este curso podrás acceder a las últimas teorías de las ciencias de la cognición y el comportamiento, que te permitirán optimizar tu práctica en el área de la neurocognición y desempeñar una praxis clínica y educativa mucho más precisa, eficaz y eficiente con tus pacientes, alumnos y sus familias.",
+        "En esta sección podrás acceder a las últimas teorías de las ciencias de la cognición y el comportamiento, que te permitirán optimizar tu práctica en el área de la neurocognición y desempeñar una praxis clínica y educativa mucho más precisa, eficaz y eficiente con tus pacientes, alumnos y sus familias.",
       // duración: "4 clases en 2 meses.",
       numeroWhatsapp: "5493816785691",
     },
