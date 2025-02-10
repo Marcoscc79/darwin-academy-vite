@@ -67,7 +67,7 @@ const Main = () => {
   
   return (
     <main className="main-container">
-      <h2 className="main-title">Nuestros Cursos</h2>
+      <h2 className="main-title">Nuestras Secciones</h2>
       <div className="cursos-grid">
         {cursos.map((curso) => {
           // Define las constantes dentro de la función de mapeo
@@ -100,7 +100,7 @@ const Main = () => {
         })}
       </div>
       <footer className="footer-header">
-        <h2 className="footer-title">"¡Muy pronto agregaremos más cursos!"</h2>
+        <h2 className="footer-title">"¡Muy pronto agregaremos más secciones!"</h2>
       </footer>
     </main>
   );

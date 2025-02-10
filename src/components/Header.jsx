@@ -10,11 +10,11 @@ const Header = () => {
       <div className="hero-text">
         <h1>Aprende Psicología con Tecnología</h1>
         <p>
-          Explora nuestros cursos diseñados para potenciar tu conocimiento
+          Explora nuestras secciones de las que diseñaremos los cursos para potenciar tu conocimiento
           mediante herramientas digitales.
         </p>
         <a href="/cursos" className="btn-cta">
-          Ver Cursos
+          Ver Secciones
         </a>
       </div>
     </header>
