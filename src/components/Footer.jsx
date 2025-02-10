@@ -2,7 +2,7 @@
 import React from "react";
 import "./Footer.css";
 import logoFacebook from "../assets/facebook.png";
-import logoTwiterx from "../assets/twitterx.png";
+import logoGmail from "../assets/gmail.png";
 import logoInstagram from "../assets/instagram.png";
 
 const Footer = () => {
@@ -27,21 +27,21 @@ const Footer = () => {
         </nav>
         <div className="footer-social">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/18TAJ61V3x/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={logoFacebook} alt="Logo de Facebook" />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=institutodarwinpsicologia@gmail.com&su=Consulta%20Academia%20Darwin&body="
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={logoTwiterx} alt="Logo de Twiter" />
+            <img src={logoGmail} alt="Logo de Gmail" />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/darwinformacionenlinea?utm_source=qr&igsh=ejhxY2E0cHpxc2Yx"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Nosotros from "./components/Nosotros";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         />
         <Route path="/cursos" element={<Main />} />
       </Routes>
+      <Nosotros></Nosotros>
       <Footer></Footer>
     </Router>
   );
