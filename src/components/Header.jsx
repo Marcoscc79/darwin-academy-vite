@@ -10,8 +10,12 @@ const Header = () => {
       <div className="hero-text">
         <h1>Aprende Psicología con Tecnología</h1>
         <p>
-          Explora nuestras secciones de las que diseñaremos los cursos para potenciar tu conocimiento
-          mediante herramientas digitales.
+          Hola, bienvenidos/as. Somos Lourdes y Matías, sentite como en tu casa.
+          Escribínos a nuestro mail o por cualquiera de nuestras redes sociales.
+          Vení, mirá las capacitaciones del futuro. <br />
+          Explora nuestros cursos virtuales y potencia tu conocimiento y
+          práctica. <br />
+          <b className="slogan">Darwin... ¡vas a crecer!.</b>
         </p>
         <a href="/cursos" className="btn-cta">
           Ver Secciones

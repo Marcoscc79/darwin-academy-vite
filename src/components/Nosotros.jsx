@@ -18,6 +18,37 @@ const Nosotros = () => {
       <section className="nosotros-integrantes">
         <figure className="integrante">
           <img
+            src={fotoLourdes}
+            alt="Foto Lourdes"
+            className="integrante-imagen"
+          />
+          <figcaption className="integrante-info">
+            <h3>Lourdes Mariel Aredes</h3>
+            <p>
+              Profesora en Historia por la Universidad Nacional de Catamarca.
+              Docente en nivel medio. Integrante de equipo de investigación de
+              Facultad de Humanidades, Universidad Nacional de Catamarca (UNCa)
+            </p>
+          </figcaption>
+          <div className="redes-sociales">
+            <a
+              href="https://www.facebook.com/share/18TAJ61V3x/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={logoFacebook} alt="Logo de Facebook" />
+            </a>
+            <a
+              href="https://www.instagram.com/lourdesmaredes?igsh=MXQxZHdiMnFqajhmbw=="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={logoInstagram} alt="Logo de Instagram" />
+            </a>
+          </div>
+        </figure>
+        <figure className="integrante">
+          <img
             src={fotoMatias} // Asegúrate de colocar la imagen en public/images
             alt="Foto Matías"
             className="integrante-imagen"
@@ -41,37 +72,6 @@ const Nosotros = () => {
             </a>
             <a
               href="https://www.instagram.com/psico.matiasvaldez?utm_source=qr&igsh=cDFoOTd4bzA3OXVn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={logoInstagram} alt="Logo de Instagram" />
-            </a>
-          </div>
-        </figure>
-        <figure className="integrante">
-          <img
-            src={fotoLourdes}
-            alt="Foto Lourdes"
-            className="integrante-imagen"
-          />
-          <figcaption className="integrante-info">
-            <h3>Lourdes Mariel Aredes</h3>
-            <p>
-              Profesora en Historia por la Universidad Nacional de Catamarca.
-              Docente en nivel medio. Integrante de equipo de investigación de
-              Facultad de Humanidades, Universidad Nacional de Catamarca (UNCa)
-            </p>
-          </figcaption>
-          <div className="redes-sociales">
-            <a
-              href="https://www.facebook.com/share/18TAJ61V3x/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img src={logoFacebook} alt="Logo de Facebook" />
-            </a>
-            <a
-              href="https://www.instagram.com/lourdesmaredes?igsh=MXQxZHdiMnFqajhmbw=="
               target="_blank"
               rel="noopener noreferrer"
             >
