@@ -101,7 +101,7 @@ const Main = () => {
                   rel="noopener noreferrer"
                   className="btn-seleccionar"
                 >
-                  <img src={logoGmail}></img>Clic para Más Info
+                  <img src={logoGmail}></img>Clic para Más Info!
                 </a>
               </button>
             </div>
