@@ -68,7 +68,22 @@ const Main = () => {
           const mensaje = encodeURIComponent(
             `Hola, estoy interesado en la sección: ${curso.titulo}. ¿Podrían brindarme más información?\r\n\r\n`
           );
-          const enlaceGmail = `https://mail.google.com/mail/?view=cm&fs=1&to=institutodarwinpsicologia@gmail.com&su=Consulta%20Academia%20Darwin&body=Hola, estoy interesado en la sección: ${curso.titulo}. ¿Podrían brindarme más información?`;
+          // Detecta si el usuario está en mobile
+          const isMobile = /iPhone|iPad|iPod|Android/i.test(
+            navigator.userAgent
+          );
+
+          // Opción 1: Usar el esquema de Gmail en móviles
+          const enlaceGmailMobile = `googlegmail://co?to=institutodarwinpsicologia@gmail.com&subject=Consulta%20Academia%20Darwin&body=${mensaje}`;
+
+          // Opción 2: Usar mailto (generalmente compatible en móviles)
+          const enlaceMailto = `mailto:institutodarwinpsicologia@gmail.com?subject=Consulta%20Academia%20Darwin&body=${mensaje}`;
+
+          // Escoge el enlace según el dispositivo:
+          const enlace = isMobile
+            ? enlaceGmailMobile
+            : `https://mail.google.com/mail/?view=cm&fs=1&to=institutodarwinpsicologia@gmail.com&su=Consulta%20Academia%20Darwin&body=${mensaje}`;
+
           return (
             <div key={curso.id} className="curso-card">
               <img
@@ -81,7 +96,7 @@ const Main = () => {
               {/* <p>Duración: {curso.duración}</p> */}
               <button className="btn-seleccionar">
                 <a
-                  href={enlaceGmail}
+                  href={enlace}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-seleccionar"
