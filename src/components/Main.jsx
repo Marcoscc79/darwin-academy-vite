@@ -1,6 +1,5 @@
 // src/components/Main.jsx
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./Main.css";
 import curso1 from "../assets/curso1.jpeg";
 import curso2 from "../assets/curso2.jpeg";
@@ -15,7 +14,7 @@ const Main = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    const userAgent = navigator.userAgent || window.opera;
     const mobile = /iPhone|iPad|iPod|Android/i.test(userAgent);
     setIsMobile(mobile);
   }, []);
@@ -73,21 +72,17 @@ const Main = () => {
       <h2 className="main-title">Nuestras Secciones</h2>
       <div className="cursos-grid">
         {cursos.map((curso) => {
-          // Define el mensaje con saltos de línea para pre-cargar el cuerpo del correo
+          // Crea el mensaje con saltos de línea para pre-cargar el cuerpo del correo
           const mensaje = encodeURIComponent(
             `Hola, estoy interesado en la sección: ${curso.titulo}. ¿Podrían brindarme más información?\r\n\r\n`
           );
-          // Enlace para Gmail en desktop
+          // Enlace para Gmail en escritorio
           const enlaceGmailDesktop = `https://mail.google.com/mail/?view=cm&fs=1&to=institutodarwinpsicologia@gmail.com&su=Consulta%20Academia%20Darwin&body=${mensaje}`;
-          // Enlace para móviles usando el esquema de Gmail
-          const enlaceGmailMobile = `googlegmail://co?to=institutodarwinpsicologia@gmail.com&subject=Consulta%20Academia%20Darwin&body=${mensaje}`;
-          // Alternativa usando mailto en mobile (más universal)
+          // Enlace para móviles usando mailto (más universal)
           const enlaceMailto = `mailto:institutodarwinpsicologia@gmail.com?subject=Consulta%20Academia%20Darwin&body=${mensaje}`;
 
-          // Escoge el enlace adecuado según el dispositivo
-          const enlace = isMobile
-            ? enlaceGmailMobile || enlaceMailto
-            : enlaceGmailDesktop;
+          // Usa mailto en móviles y Gmail en desktop
+          const enlace = isMobile ? enlaceMailto : enlaceGmailDesktop;
 
           return (
             <div key={curso.id} className="curso-card">
