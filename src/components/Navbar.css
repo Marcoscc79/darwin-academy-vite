@@ -3,7 +3,7 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #80d291;
+  background-color: #eff2ca;
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,8 @@
 .navbar-logo a {
   display: flex;
   align-items: center;
-  color: #04592c;
+  color: #6c330a;
+  font-family: 'Aharoni', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   text-decoration: none;
@@ -56,7 +57,7 @@
 }
 
 .navbar-links a {
-  color: #004d40;
+  color: #6c330a;
   text-decoration: none;
   font-size: 1rem;
   font-weight: 700;
@@ -89,7 +90,7 @@
     position: absolute;
     top: 90px;
     right: 0;
-    background-color: #80d291;
+    background-color: #eff5a8;
     width: 100%;
     max-width: 180px;
     height: 135%;

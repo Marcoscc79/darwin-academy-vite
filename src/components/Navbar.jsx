@@ -1,8 +1,8 @@
 // src/components/Navbar.jsx
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logoNavbar from "../assets/logo2.png";
+import logonuevoborde from "../assets/logonuevoborde.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -15,8 +15,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <a href="/">
-          <img src={logoNavbar} alt="Darwin Academy Logo" className="logo" />
-          DarwinAcademy
+          <img src={logonuevoborde} alt="CapOL Escuela Logo" className="logo" />
+          CapOL Escuela
         </a>
       </div>
       <div className={`navbar-links ${menuOpen ? "active" : ""}`}>
@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to="/">Inicio</Link>
           </li>
           <li>
-            <Link to="/cursos">Secciones</Link>
+            <Link to="/cursos">Cursos</Link>
           </li>
           <li>
             <Link to="/nosotros">Nosotros</Link>
